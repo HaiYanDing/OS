@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.001041] (hello) JobStarted: {'identifier': 'hello'}
+[0.099940] (-) TimerEvent: {}
+[0.200811] (-) TimerEvent: {}
+[0.301666] (-) TimerEvent: {}
+[0.398581] (hello) JobProgress: {'identifier': 'hello', 'progress': 'cmake'}
+[0.399488] (hello) JobProgress: {'identifier': 'hello', 'progress': 'build'}
+[0.400701] (hello) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/megekol/git/ros/build/hello', '--', '-j4', '-l4'], 'cwd': '/home/megekol/git/ros/build/hello', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'megekol'), ('SSH_AGENT_PID', '1796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/megekol'), ('OLDPWD', '/home/megekol/git/ros/src/hello/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'megekol'), ('JOURNAL_STREAM', '9:36948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/megekol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin'), ('SESSION_MANAGER', 'local/sypphczugvy23gi:@/tmp/.ICE-unix/1864,unix/sypphczugvy23gi:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '399026238c9843c5817655cace3f8407'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4adbc55d_ea9f_4194_b526_644826c38b9d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_CONFIG_HOME', '/home/megekol/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/megekol/git/ros/build/hello'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.405399] (-) TimerEvent: {}
+[0.458017] (hello) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hello\x1b[0m\n'}
+[0.487110] (hello) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o\x1b[0m\n'}
+[0.505506] (-) TimerEvent: {}
+[0.605890] (-) TimerEvent: {}
+[0.706350] (-) TimerEvent: {}
+[0.806850] (-) TimerEvent: {}
+[0.907343] (-) TimerEvent: {}
+[1.007884] (-) TimerEvent: {}
+[1.108398] (-) TimerEvent: {}
+[1.208910] (-) TimerEvent: {}
+[1.309417] (-) TimerEvent: {}
+[1.409916] (-) TimerEvent: {}
+[1.510438] (-) TimerEvent: {}
+[1.610945] (-) TimerEvent: {}
+[1.711433] (-) TimerEvent: {}
+[1.811951] (-) TimerEvent: {}
+[1.912456] (-) TimerEvent: {}
+[2.012980] (-) TimerEvent: {}
+[2.113486] (-) TimerEvent: {}
+[2.214034] (-) TimerEvent: {}
+[2.314551] (-) TimerEvent: {}
+[2.415086] (-) TimerEvent: {}
+[2.505454] (hello) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello\x1b[0m\n'}
+[2.515195] (-) TimerEvent: {}
+[2.615591] (-) TimerEvent: {}
+[2.638879] (hello) StdoutLine: {'line': b'[100%] Built target hello\n'}
+[2.652395] (hello) CommandEnded: {'returncode': 0}
+[2.684733] (hello) JobProgress: {'identifier': 'hello', 'progress': 'install'}
+[2.698723] (hello) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/megekol/git/ros/build/hello'], 'cwd': '/home/megekol/git/ros/build/hello', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'megekol'), ('SSH_AGENT_PID', '1796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/megekol'), ('OLDPWD', '/home/megekol/git/ros/src/hello/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'megekol'), ('JOURNAL_STREAM', '9:36948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/megekol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin'), ('SESSION_MANAGER', 'local/sypphczugvy23gi:@/tmp/.ICE-unix/1864,unix/sypphczugvy23gi:/tmp/.ICE-unix/1864'), ('INVOCATION_ID', '399026238c9843c5817655cace3f8407'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4adbc55d_ea9f_4194_b526_644826c38b9d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_CONFIG_HOME', '/home/megekol/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/megekol/git/ros/build/hello'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.708743] (hello) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.709127] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/package_run_dependencies/hello\n'}
+[2.709331] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/parent_prefix_path/hello\n'}
+[2.709518] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.sh\n'}
+[2.709830] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.dsv\n'}
+[2.709993] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/path.sh\n'}
+[2.710183] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/path.dsv\n'}
+[2.710346] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.bash\n'}
+[2.710523] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.sh\n'}
+[2.710688] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.zsh\n'}
+[2.710854] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.dsv\n'}
+[2.711008] (hello) StdoutLine: {'line': b'-- Installing: /home/megekol/git/ros/install/hello/share/hello/package.dsv\n'}
+[2.711179] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/packages/hello\n'}
+[2.711434] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig.cmake\n'}
+[2.711569] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig-version.cmake\n'}
+[2.711692] (hello) StdoutLine: {'line': b'-- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/package.xml\n'}
+[2.711799] (hello) StdoutLine: {'line': b'-- Installing: /home/megekol/git/ros/install/hello/lib/hello/hello\n'}
+[2.711901] (hello) StdoutLine: {'line': b'-- Set runtime path of "/home/megekol/git/ros/install/hello/lib/hello/hello" to ""\n'}
+[2.713419] (hello) CommandEnded: {'returncode': 0}
+[2.716555] (-) TimerEvent: {}
+[2.816971] (-) TimerEvent: {}
+[2.918650] (-) TimerEvent: {}
+[3.019991] (-) TimerEvent: {}
+[3.120696] (-) TimerEvent: {}
+[3.222151] (-) TimerEvent: {}
+[3.323513] (-) TimerEvent: {}
+[3.424747] (-) TimerEvent: {}
+[3.525707] (-) TimerEvent: {}
+[3.626549] (-) TimerEvent: {}
+[3.631685] (hello) JobEnded: {'identifier': 'hello', 'rc': 0}
+[3.632840] (-) EventReactorShutdown: {}

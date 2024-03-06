@@ -1,0 +1,16 @@
+/home/megekol/git/ros/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+/home/megekol/git/ros/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+/home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.sh
+/home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.dsv
+/home/megekol/git/ros/install/hello/share/hello/environment/path.sh
+/home/megekol/git/ros/install/hello/share/hello/environment/path.dsv
+/home/megekol/git/ros/install/hello/share/hello/local_setup.bash
+/home/megekol/git/ros/install/hello/share/hello/local_setup.sh
+/home/megekol/git/ros/install/hello/share/hello/local_setup.zsh
+/home/megekol/git/ros/install/hello/share/hello/local_setup.dsv
+/home/megekol/git/ros/install/hello/share/hello/package.dsv
+/home/megekol/git/ros/install/hello/share/ament_index/resource_index/packages/hello
+/home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig.cmake
+/home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig-version.cmake
+/home/megekol/git/ros/install/hello/share/hello/package.xml
+/home/megekol/git/ros/install/hello/lib/hello/hello
