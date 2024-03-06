@@ -1,0 +1,26 @@
+[0.404s] Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4
+[0.457s] [35m[1mScanning dependencies of target hello[0m
+[0.486s] [ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[2.505s] [100%] [32m[1mLinking CXX executable hello[0m
+[2.638s] [100%] Built target hello
+[2.652s] Invoked command in '/home/megekol/git/ros/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4
+[2.698s] Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/megekol/git/ros/build/hello
+[2.708s] -- Install configuration: ""
+[2.708s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+[2.708s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+[2.709s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.sh
+[2.709s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/ament_prefix_path.dsv
+[2.709s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/path.sh
+[2.709s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/environment/path.dsv
+[2.709s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.bash
+[2.710s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.sh
+[2.710s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.zsh
+[2.710s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/local_setup.dsv
+[2.710s] -- Installing: /home/megekol/git/ros/install/hello/share/hello/package.dsv
+[2.710s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/ament_index/resource_index/packages/hello
+[2.710s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig.cmake
+[2.711s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/cmake/helloConfig-version.cmake
+[2.711s] -- Up-to-date: /home/megekol/git/ros/install/hello/share/hello/package.xml
+[2.711s] -- Installing: /home/megekol/git/ros/install/hello/lib/hello/hello
+[2.711s] -- Set runtime path of "/home/megekol/git/ros/install/hello/lib/hello/hello" to ""
+[2.713s] Invoked command in '/home/megekol/git/ros/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/megekol/git/ros/build/hello

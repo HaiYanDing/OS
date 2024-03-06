@@ -1,0 +1,6 @@
+Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/megekol/git/ros/src/hello -DCMAKE_INSTALL_PREFIX=/home/megekol/git/ros/install/hello
+Invoked command in '/home/megekol/git/ros/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/megekol/git/ros/src/hello -DCMAKE_INSTALL_PREFIX=/home/megekol/git/ros/install/hello
+Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4
+Invoked command in '/home/megekol/git/ros/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4
+Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/megekol/git/ros/build/hello
+Invoked command in '/home/megekol/git/ros/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/megekol/git/ros/build/hello

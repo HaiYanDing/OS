@@ -1,0 +1,2 @@
+Invoking command in '/home/megekol/git/ros/build/hello': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4
+Invoked command in '/home/megekol/git/ros/build/hello' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/megekol/git/ros/build/hello -- -j4 -l4

@@ -1,0 +1,10 @@
+/home/megekol/git/ros/build/hello/CMakeFiles/install/strip.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/install.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/list_install_components.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/rebuild_cache.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/edit_cache.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/test.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/install/local.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/hello_uninstall.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/hello.dir
+/home/megekol/git/ros/build/hello/CMakeFiles/uninstall.dir
